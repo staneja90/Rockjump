@@ -1,4 +1,4 @@
 execute 'Install docker' do
 action :run
-command 'sudo apt-get -y install docker.io'
+command 'sudo yum -y install docker'
 end
